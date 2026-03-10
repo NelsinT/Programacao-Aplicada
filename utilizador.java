@@ -11,7 +11,7 @@ public class utilizador {
         username = aUsername;
         password = aPassword;
         email = aEmail;
-        ativo = false;
+        ativo = true;
 
     }
 
