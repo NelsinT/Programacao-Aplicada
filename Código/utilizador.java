@@ -15,4 +15,39 @@ public class utilizador {
 
     }
 
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public boolean isAtivo() {
+        return ativo;
+    }
+
+    public void setPassword(String aPassword) {
+        password = aPassword;
+    }
+
+    public void setNome(String aNome) {
+        nome = aNome;
+    }
+
+    public void setEmail(String aEmail) {
+        email = aEmail;
+    }
+
+    public void setActivo(boolean aAtivo) {
+        ativo = aAtivo;
+    }
 }
