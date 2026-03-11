@@ -1,5 +1,5 @@
-package modelo;
-
+package src.modelo;
+    
 public class Utilizador {
     private String nome;
     private String username;
