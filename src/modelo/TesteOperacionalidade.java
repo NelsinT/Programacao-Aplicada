@@ -2,12 +2,12 @@ package src.modelo;
 
 import java.time.*;
 
-public class TesteFuncionalidade {
+public class TesteOperacionalidade {
     private String designacao;
     private String descricao;
     private LocalDate data;
 
-    public TesteFuncionalidade(String aDesignacao, String aDescricao, LocalDate aData) {
+    public TesteOperacionalidade(String aDesignacao, String aDescricao, LocalDate aData) {
         designacao = aDesignacao;
         descricao = aDescricao;
         data = aData;
