@@ -1,4 +1,6 @@
-package src.modelo;
+package src;
+
+import src.modelo.Utilizador;
 
 public class Main {
     public static void main() {
