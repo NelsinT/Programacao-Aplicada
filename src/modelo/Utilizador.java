@@ -1,5 +1,5 @@
 package src.modelo;
-    
+
 public class Utilizador {
     private String nome;
     private String username;
@@ -8,13 +8,11 @@ public class Utilizador {
     private boolean ativo;
 
     public Utilizador(String aNome, String aUsername, String aPassword, String aEmail) {
-
         nome = aNome;
         username = aUsername;
         password = aPassword;
         email = aEmail;
         ativo = true;
-
     }
 
     public String getUsername() {
